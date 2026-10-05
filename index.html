@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="SZTECNO Posadas — Servicio técnico de celulares y celulares reacondicionados. Reparaciones, módulos, baterías, placas de carga, cámaras y limpieza por humedad.">
+<title>SZTECNO | Servicio Técnico · Posadas</title>
+<link rel="icon" href="assets/logo-sztecno.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<header class="topbar">
+  <a class="brand" href="#inicio" aria-label="SZTECNO inicio">
+    <img src="assets/logo-sztecno.jpg" alt="Logo SZTECNO">
+    <div><strong>SZTECNO</strong><span>POSADAS · MISIONES</span></div>
+  </a>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#reacondicionados">Reacondicionados</a>
+    <a href="#garantia">Garantía</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <a class="nav-wa" target="_blank" rel="noopener" href="https://wa.me/5493764824039?text=Hola%20SZTECNO%2C%20quiero%20hacer%20una%20consulta.">WhatsApp</a>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><span></span> SERVICIO TÉCNICO · POSADAS</p>
+    <h1>Tu celular.<br><em>En buenas manos.</em></h1>
+    <p class="lead">Reparaciones en general, diagnóstico y celulares reacondicionados. Atención directa con <b>Sergio / Zaiko</b>, técnico y encargado de SZTECNO.</p>
+    <div class="hero-actions">
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/5493764824039?text=Hola%20SZTECNO%2C%20quiero%20consultar%20por%20una%20reparaci%C3%B3n.">COMPRAR / CONSULTAR POR WHATSAPP ↗</a>
+      <a class="btn ghost" href="#reacondicionados">VER REACONDICIONADOS</a>
+    </div>
+    <div class="trust">
+      <div><b>40+</b><span>reseñas reales</span></div>
+      <div><b>48 h</b><span>garantía en reparaciones*</span></div>
+      <div><b>Posadas</b><span>envíos locales</span></div>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="glow"></div>
+    <img src="assets/moto-catalogo.jpg" alt="Celular reacondicionado SZTECNO">
+    <div class="art-tag">REACONDICIONADO<br><b>LISTO PARA USAR</b></div>
+  </div>
+</section>
+
+<section class="marquee"><div>CAMBIO DE MÓDULO <i>✦</i> BATERÍA <i>✦</i> PLACA DE CARGA <i>✦</i> CÁMARA <i>✦</i> LIMPIEZA POR HUMEDAD <i>✦</i> DIAGNÓSTICO <i>✦</i></div></section>
+
+<section id="servicios" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">LO QUE HACEMOS</p><h2>Reparaciones <em>en general.</em></h2></div>
+    <p>Soluciones claras, trato directo y presupuesto antes de avanzar con el trabajo.</p>
+  </div>
+  <div class="services">
+    <article><span>01</span><h3>Cambio de módulo</h3><p>Pantalla rota, táctil con fallas o display dañado. Evaluamos el equipo y colocamos el repuesto correspondiente.</p></article>
+    <article><span>02</span><h3>Batería</h3><p>Cambio de batería y revisión del consumo para recuperar autonomía y funcionamiento estable.</p></article>
+    <article><span>03</span><h3>Placa de carga</h3><p>Problemas de carga, falso contacto o conector dañado. Diagnóstico antes de reparar.</p></article>
+    <article><span>04</span><h3>Cámara</h3><p>Reemplazo de cámara y solución de fallas de enfoque, imagen o funcionamiento.</p></article>
+    <article><span>05</span><h3>Humedad</h3><p>Limpieza técnica ante ingreso de líquido y evaluación de daños. Cuanto antes llegue el equipo, mejor.</p></article>
+    <article><span>06</span><h3>Diagnóstico</h3><p>Revisión de fallas generales para determinar qué necesita realmente tu equipo.</p></article>
+  </div>
+</section>
+
+<section id="reacondicionados" class="section catalog-section">
+  <div class="section-head catalog-head">
+    <div><p class="eyebrow">TIENDA SZTECNO</p><h2>Celulares <em>reacondicionados.</em></h2></div>
+    <p>Equipos usados seleccionados y revisados. Los detalles estéticos leves se informan en cada publicación. Cuando corresponde, el módulo se reemplaza por uno ORIGINAL y se utilizan componentes originales del equipo.</p>
+  </div>
+  <div class="catalog-tools">
+    <input id="search" type="search" placeholder="Buscar marca o modelo..." aria-label="Buscar celulares">
+    <select id="filterBrand" aria-label="Filtrar por marca"><option value="">Todas las marcas</option></select>
+    <span id="count"></span>
+  </div>
+  <div id="catalog" class="catalog"></div>
+  <div id="empty" class="empty" hidden>No encontramos equipos con esa búsqueda.</div>
+</section>
+
+<section class="photo-strip">
+  <img src="assets/moto-negro.jpg" alt="Equipo Motorola">
+  <img src="assets/redmi-negro.jpg" alt="Equipo Redmi">
+  <img src="assets/samsung-lila.jpg" alt="Equipo Samsung">
+  <img src="assets/moto-blanco.jpg" alt="Equipo Motorola">
+</section>
+
+<section id="garantia" class="section split">
+  <div class="dark-card">
+    <p class="eyebrow">TRANSPARENCIA</p>
+    <h2>Garantía de <em>48 horas.</em></h2>
+    <p>En reparaciones se entrega constancia con nombre y apellido, DNI y firma del cliente, dejando asentada la garantía acordada de 48 horas.</p>
+    <small>*La garantía se aplica a la reparación realizada y según las condiciones informadas al momento de la entrega. No cubre golpes, humedad posterior, manipulación de terceros ni daños ajenos a la reparación.</small>
+  </div>
+  <div class="info-card">
+    <div class="info-row"><b>📍 ZONA</b><span>Itaembé Guazú · Posadas, Misiones</span></div>
+    <div class="info-row"><b>🚚 ENVÍOS</b><span>Dentro de Posadas. No realizamos envíos nacionales ni provinciales.</span></div>
+    <div class="info-row"><b>💳 PAGOS</b><span>Efectivo o Mercado Pago, siempre de forma presencial.</span></div>
+    <div class="info-row"><b>👨‍🔧 TÉCNICO</b><span>Sergio / Zaiko · encargado de SZTECNO</span></div>
+  </div>
+</section>
+
+<section class="reviews section">
+  <div class="reviews-top">
+    <div><p class="eyebrow">CONFIANZA REAL</p><h2>40+ reseñas <em>reales.</em></h2></div>
+    <a class="btn ghost" target="_blank" rel="noopener" href="https://www.google.com/search?q=SZTECNO+Posadas+Misiones">VER RESEÑAS ↗</a>
+  </div>
+  <div class="review-grid">
+    <div class="review-stat"><b>40+</b><span>reseñas reales de clientes</span><small>La cantidad mostrada es la informada por SZTECNO. Consultá las reseñas directamente en Google.</small></div>
+    <div class="review-stat"><b>★★★★★</b><span>experiencias de clientes</span><small>La página no inventa testimonios: el botón de arriba lleva a las reseñas externas.</small></div>
+    <div class="review-stat"><b>100%</b><span>trato directo</span><small>Consultas y seguimiento directamente con Sergio / Zaiko.</small></div>
+  </div>
+</section>
+
+<section id="contacto" class="contact">
+  <div>
+    <p class="eyebrow">¿TENÉS UNA FALLA?</p>
+    <h2>Hablemos por <em>WhatsApp.</em></h2>
+    <p>Mandanos el modelo, una foto si querés y contanos qué problema tiene. Te orientamos sobre el siguiente paso.</p>
+  </div>
+  <a class="btn primary big" target="_blank" rel="noopener" href="https://wa.me/5493764824039?text=Hola%20SZTECNO%2C%20soy%20de%20Posadas%20y%20quiero%20consultar.">WHATSAPP · 3764 824039 ↗</a>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand"><img src="assets/logo-sztecno.jpg" alt=""><div><b>SZTECNO</b><span>POSADAS · MISIONES</span></div></div>
+  <div class="footer-links"><a target="_blank" rel="noopener" href="https://instagram.com/sztecnoposadas">@sztecnoposadas</a><a href="#admin" id="adminLink">Administrador</a></div>
+  <p>“Jehová es mi pastor y nada me faltará.”</p>
+</footer>
+
+<div id="modal" class="modal" hidden><div class="modal-box"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+
+<section id="admin" class="admin-page" hidden>
+  <div class="admin-wrap">
+    <div class="admin-top"><a href="#inicio" class="back">← Volver al sitio</a><span>SZTECNO / ADMIN</span></div>
+    <div id="loginBox" class="admin-login">
+      <p class="eyebrow">ACCESO PRIVADO</p><h2>Panel de <em>administración.</em></h2>
+      <p>El panel permite administrar el catálogo en este navegador.</p>
+      <input id="adminPass" type="password" autocomplete="current-password" placeholder="Contraseña">
+      <button id="loginBtn" class="btn primary">INGRESAR</button>
+      <div id="loginMsg"></div>
+    </div>
+    <div id="dashboard" hidden>
+      <div class="dashboard-head"><div><p class="eyebrow">CATÁLOGO</p><h2>Administrar equipos</h2></div><div><button id="logoutBtn" class="btn ghost">Cerrar sesión</button></div></div>
+      <form id="productForm" class="product-form">
+        <input type="hidden" id="editId">
+        <input id="pName" required placeholder="Modelo, ej. Moto G54">
+        <input id="pBrand" required placeholder="Marca">
+        <input id="pPrice" required type="number" min="0" placeholder="Precio en ARS">
+        <input id="pStorage" placeholder="Memoria, ej. 128 GB">
+        <input id="pRam" placeholder="RAM, ej. 8 GB">
+        <input id="pCondition" placeholder="Estado, ej. Muy bueno">
+        <textarea id="pDetails" placeholder="Detalles y componentes incluidos"></textarea>
+        <label class="upload">Imagen principal<input id="pImage" type="file" accept="image/*"></label>
+        <div id="imagePreview" class="image-preview"></div>
+        <div class="form-actions"><button class="btn primary" type="submit">GUARDAR EQUIPO</button><button id="cancelEdit" class="btn ghost" type="button">CANCELAR</button></div>
+      </form>
+      <div class="admin-tools"><button id="exportBtn" class="btn ghost">Exportar catálogo</button><label class="btn ghost import">Importar catálogo<input id="importFile" type="file" accept=".json"></label></div>
+      <div id="adminList" class="admin-list"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+const WA="5493764824039";
+const HASH="dd445a110f2d972994362b8a78068e6fa14cd2de0de45f8826393a2373e0608a";
+const DEFAULT_PRODUCTS=[
+ {id:"moto-negro",name:"Motorola — consultar modelo",brand:"Motorola",price:0,storage:"Consultar",ram:"Consultar",condition:"Usado · revisado",details:"Equipo de muestra. Consultá disponibilidad, modelo exacto, capacidad, estado estético y precio por WhatsApp.",image:"assets/moto-negro.jpg"},
+ {id:"redmi-negro",name:"Redmi — consultar modelo",brand:"Redmi",price:0,storage:"Consultar",ram:"Consultar",condition:"Usado · reacondicionado",details:"Equipo de muestra. Consultá disponibilidad, modelo exacto, capacidad, estado y precio por WhatsApp.",image:"assets/redmi-negro.jpg"},
+ {id:"samsung-lila",name:"Samsung — consultar modelo",brand:"Samsung",price:0,storage:"Consultar",ram:"Consultar",condition:"Usado · revisado",details:"Equipo de muestra. Consultá disponibilidad, modelo exacto, capacidad, estado estético y precio por WhatsApp.",image:"assets/samsung-lila.jpg"},
+ {id:"moto-blanco",name:"Motorola — consultar modelo",brand:"Motorola",price:0,storage:"Consultar",ram:"Consultar",condition:"Usado · reacondicionado",details:"Equipo de muestra. Consultá disponibilidad, modelo exacto, capacidad, estado y precio por WhatsApp.",image:"assets/moto-blanco.jpg"}
+];
+let products=JSON.parse(localStorage.getItem("sztecno_products")||"null")||DEFAULT_PRODUCTS;
+let selectedImage="";
+
+function money(v){return v>0?"$ "+Number(v).toLocaleString("es-AR"):"Consultar";}
+function save(){localStorage.setItem("sztecno_products",JSON.stringify(products));}
+function waFor(p){
+ const text=`Hola SZTECNO, quiero comprar/consultar por: ${p.name}. Precio publicado: ${money(p.price)}. Memoria: ${p.storage||"Consultar"}. RAM: ${p.ram||"Consultar"}. Estado: ${p.condition||"Consultar"}.`;
+ return `https://wa.me/${WA}?text=${encodeURIComponent(text)}`;
+}
+function renderCatalog(){
+ const q=(document.getElementById("search").value||"").toLowerCase();
+ const b=document.getElementById("filterBrand").value;
+ const list=products.filter(p=>(!q||`${p.name} ${p.brand} ${p.details}`.toLowerCase().includes(q))&&(!b||p.brand===b));
+ document.getElementById("count").textContent=`${list.length} equipo${list.length===1?"":"s"}`;
+ document.getElementById("empty").hidden=list.length>0;
+ document.getElementById("catalog").innerHTML=list.map(p=>`
+ <article class="product">
+   <div class="product-img"><img src="${p.image}" alt="${esc(p.name)}"><span>REACONDICIONADO</span></div>
+   <div class="product-body"><p class="mini">${esc(p.brand)} · ${esc(p.condition||"Revisado")}</p><h3>${esc(p.name)}</h3>
+   <div class="specs"><span>${esc(p.storage||"Consultar")}</span><span>${esc(p.ram||"Consultar")}</span></div>
+   <div class="price">${money(p.price)}</div>
+   <button class="buy" data-id="${p.id}">COMPRAR YA ↗</button>
+   <button class="more" data-detail="${p.id}">Ver características y detalles</button></div>
+ </article>`).join("");
+ document.querySelectorAll(".buy").forEach(x=>x.onclick=()=>{const p=products.find(y=>y.id===x.dataset.id);window.open(waFor(p),"_blank")});
+ document.querySelectorAll(".more").forEach(x=>x.onclick=()=>openModal(products.find(y=>y.id===x.dataset.detail)));
+}
+function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));}
+function populateBrands(){const sel=document.getElementById("filterBrand"), cur=sel.value; [...new Set(products.map(p=>p.brand).filter(Boolean))].sort().forEach(b=>{if(![...sel.options].some(o=>o.value===b)){const o=document.createElement("option");o.value=b;o.textContent=b;sel.appendChild(o)}});sel.value=cur;}
+function openModal(p){document.getElementById("modalContent").innerHTML=`<div class="modal-grid"><img src="${p.image}" alt="${esc(p.name)}"><div><p class="eyebrow">${esc(p.brand)} · REACONDICIONADO</p><h2>${esc(p.name)}</h2><div class="modal-price">${money(p.price)}</div><p>${esc(p.details)}</p><ul><li>Almacenamiento: ${esc(p.storage||"Consultar")}</li><li>RAM: ${esc(p.ram||"Consultar")}</li><li>Estado: ${esc(p.condition||"Consultar")}</li><li>Pagos: efectivo o Mercado Pago, presencial</li><li>Envíos: dentro de Posadas</li></ul><a class="btn primary" target="_blank" href="${waFor(p)}">COMPRAR YA POR WHATSAPP ↗</a></div></div>`;document.getElementById("modal").hidden=false;}
+document.getElementById("closeModal").onclick=()=>document.getElementById("modal").hidden=true;
+document.getElementById("modal").onclick=e=>{if(e.target.id==="modal")e.currentTarget.hidden=true};
+document.getElementById("search").oninput=renderCatalog;
+document.getElementById("filterBrand").onchange=renderCatalog;
+
+function showAdmin(){document.querySelector("main").hidden=true;document.querySelector(".topbar").hidden=true;document.querySelector(".footer").hidden=true;document.getElementById("admin").hidden=false;window.scrollTo(0,0);}
+function hideAdmin(){document.getElementById("admin").hidden=true;document.querySelector("main").hidden=false;document.querySelector(".topbar").hidden=false;document.querySelector(".footer").hidden=false;}
+function renderAdmin(){document.getElementById("adminList").innerHTML=products.map(p=>`<div class="admin-item"><img src="${p.image}"><div><b>${esc(p.name)}</b><small>${esc(p.brand)} · ${money(p.price)}</small></div><div class="admin-actions"><button onclick="editProduct('${p.id}')">Editar</button><button onclick="deleteProduct('${p.id}')">Eliminar</button></div></div>`).join("");}
+window.editProduct=function(id){const p=products.find(x=>x.id===id);document.getElementById("editId").value=p.id;["Name","Brand","Price","Storage","Ram","Condition","Details"].forEach(k=>document.getElementById("p"+k).value=p[k.toLowerCase()]||"");selectedImage=p.image;document.getElementById("imagePreview").innerHTML=`<img src="${p.image}">`;window.scrollTo(0,0);}
+window.deleteProduct=function(id){if(confirm("¿Eliminar este equipo del catálogo?")){products=products.filter(p=>p.id!==id);save();renderAdmin();populateBrands();renderCatalog();}}
+document.getElementById("pImage").onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{selectedImage=r.result;document.getElementById("imagePreview").innerHTML=`<img src="${r.result}">`};r.readAsDataURL(f);}
+document.getElementById("productForm").onsubmit=e=>{e.preventDefault();const id=document.getElementById("editId").value||Date.now().toString();const p={id,name:pName.value,brand:pBrand.value,price:Number(pPrice.value),storage:pStorage.value,ram:pRam.value,condition:pCondition.value,details:pDetails.value,image:selectedImage||"assets/moto-catalogo.jpg"};const i=products.findIndex(x=>x.id===id);if(i>=0)products[i]=p;else products.unshift(p);save();e.target.reset();document.getElementById("editId").value="";selectedImage="";document.getElementById("imagePreview").innerHTML="";renderAdmin();populateBrands();renderCatalog();}
+document.getElementById("cancelEdit").onclick=()=>document.getElementById("productForm").reset();
+document.getElementById("exportBtn").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(products,null,2)],{type:"application/json"}));a.download="sztecnocatalogo.json";a.click();}
+document.getElementById("importFile").onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{products=JSON.parse(r.result);save();renderAdmin();populateBrands();renderCatalog();alert("Catálogo importado.")}catch{alert("Archivo inválido.")}};r.readAsText(f);}
+document.getElementById("loginBtn").onclick=async()=>{const pass=document.getElementById("adminPass").value;const hash=Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(pass)))).map(b=>b.toString(16).padStart(2,"0")).join("");if(hash===HASH){sessionStorage.setItem("sz_admin","1");document.getElementById("loginBox").hidden=true;document.getElementById("dashboard").hidden=false;renderAdmin();}else document.getElementById("loginMsg").textContent="Contraseña incorrecta."}
+document.getElementById("logoutBtn").onclick=()=>{sessionStorage.removeItem("sz_admin");location.hash="#inicio";location.reload();}
+document.getElementById("adminLink").onclick=e=>{e.preventDefault();showAdmin();if(sessionStorage.getItem("sz_admin")){document.getElementById("loginBox").hidden=true;document.getElementById("dashboard").hidden=false;renderAdmin();}}
+if(location.hash==="#admin")showAdmin();
+populateBrands();renderCatalog();
+</script>
+</body>
+</html>
